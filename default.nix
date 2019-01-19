@@ -16,6 +16,7 @@ pkgs.stdenv.mkDerivation {
     # pkgs.python27Packages.pip
     # pkgs.python27Packages.argh
     pkgs.leiningen # Clojure
+    # TODO doe we need to set the node version?
     pkgs.yarn
     pkgs.openjdk8
     pkgs.nodejs-8_x
