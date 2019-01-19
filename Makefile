@@ -8,7 +8,8 @@ shell:
 	nix-shell
 
 deps:
-	yarn install
+	# --frozen-lockfile uses the exact versions in the lock file
+	yarn install --frozen-lockfile --prefer-offline
 	lein install
 
 watch-build:
