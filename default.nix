@@ -9,24 +9,16 @@ pkgs.stdenv.mkDerivation {
   name = "testenv";
   src = ./.;
   buildInputs = [
-    # development only
-    # - nix
-    pkgs.jq
-    # nix-env -f '<nixpkgs>' -iA nodePackages.node2nix
-
-    # - build tool
-    pkgs.leiningen
-
-    # - deployment
+    pkgs.jq # nix updater script
     pkgs.awscli
-
-    # other
-    # - platforms
+    # cmds.py
+    # pkgs.python27Full
+    # pkgs.python27Packages.pip
+    # pkgs.python27Packages.argh
+    pkgs.leiningen # Clojure
+    pkgs.yarn
     pkgs.openjdk8
     pkgs.nodejs-8_x
-
-    pkgs.nodejs-8_x
-
     pkgs.docker
     pkgs.docker_compose
   ];

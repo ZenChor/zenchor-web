@@ -6,6 +6,8 @@
 # FIXME: don't upgarde to nixos-18.09, aws command was broken..
 # TODO: we need a bunch of system tests/commands that are run to make sure
 # that all environments are good after upgrade.
+# TODO: stuff being gc-ed.. https://github.com/NixOS/nix/issues/2208
+# http://datakurre.pandala.org/2015/10/nix-for-python-developers.html
 
 # nix/updater.sh nix/nixpkgs.json nixpkgs nixos-18.03
 # https://vaibhavsagar.com/blog/2018/05/27/quick-easy-nixpkgs-pinning/
