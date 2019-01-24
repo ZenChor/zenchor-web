@@ -14,6 +14,8 @@ deps:
 
 watch-build:
 	npx shadow-cljs server
+run:
+	npx shadow-cljs server
 
 repl:
 	lein repl
