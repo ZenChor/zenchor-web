@@ -1,0 +1,20 @@
+{
+    "projectName": "zenchorweb",
+    "projectPath": "/home/tim/programming/repo/zenchor/zenchor-web",
+    "defaultEditor": "none",
+    "frontendHandler": {
+        "javascript": "/home/tim/.nvm/versions/node/v8.10.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src/js-lib/amplify",
+            "DistributionDir": "build",
+            "BuildCommand": "npx shadow-cljs compile main",
+            "StartCommand": "make run"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/home/tim/.nvm/versions/node/v8.10.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}

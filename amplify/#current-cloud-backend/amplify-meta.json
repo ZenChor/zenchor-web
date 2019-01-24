@@ -1,0 +1,36 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "zenchorweb-20190120163956-authRole",
+			"UnauthRoleArn": "arn:aws:iam::301612442803:role/zenchorweb-20190120163956-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::301612442803:role/zenchorweb-20190120163956-authRole",
+			"Region": "eu-central-1",
+			"DeploymentBucketName": "zenchorweb-20190120163956-deployment",
+			"UnauthRoleName": "zenchorweb-20190120163956-unauthRole",
+			"StackName": "zenchorweb-20190120163956",
+			"StackId": "arn:aws:cloudformation:eu-central-1:301612442803:stack/zenchorweb-20190120163956/a2c9f720-1cc9-11e9-ba97-0a322bcecbc4"
+		}
+	},
+	"auth": {
+		"cognito7b008fae": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"[object Object]": {},
+			"lastPushTimeStamp": "2019-01-24T22:26:17.143Z",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/zenchorweb-20190120163956-deployment/amplify-cfn-templates/auth/cognito7b008fae-cloudformation-template.yml",
+				"logicalId": "authcognito7b008fae"
+			},
+			"output": {
+				"AppClientSecret": "11fg5bkrrqous6bfgrgbii1j75cmlvmcghmbmjdk1r3pnm9c3rq7",
+				"UserPoolId": "eu-central-1_7vjy7Gfk8",
+				"AppClientIDWeb": "18sqao1mu6vhn2j1c1748p8mgo",
+				"AppClientID": "5vi8jf007pr60ghmjv25sn1gev",
+				"IdentityPoolId": "eu-central-1:0bcfa4a0-ff0b-4164-bb26-6602bfa49141",
+				"IdentityPoolName": "cognito7b008fae_identitypool_7b008fae",
+				"UserPoolName": "cognito7b008fae_userpool_7b008fae"
+			},
+			"lastPushDirHash": "ZqyHzTmm427d7Rl7W/EI81ebcls="
+		}
+	}
+}

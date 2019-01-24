@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "zenchorweb-20190120163956-authRole",
+            "UnauthRoleArn": "arn:aws:iam::301612442803:role/zenchorweb-20190120163956-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::301612442803:role/zenchorweb-20190120163956-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "zenchorweb-20190120163956-deployment",
+            "UnauthRoleName": "zenchorweb-20190120163956-unauthRole",
+            "StackName": "zenchorweb-20190120163956",
+            "StackId": "arn:aws:cloudformation:eu-central-1:301612442803:stack/zenchorweb-20190120163956/a2c9f720-1cc9-11e9-ba97-0a322bcecbc4"
+        }
+    }
+}
